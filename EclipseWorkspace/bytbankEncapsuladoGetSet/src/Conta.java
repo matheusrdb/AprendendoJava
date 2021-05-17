@@ -3,18 +3,30 @@ public class Conta {
     private int numero;
     private int agencia;
     private Cliente titular = new Cliente();
+    private static int total;
+    
+    /*public Conta(int agencia, int numero) {
+    	if(agencia <= 0 || numero <= 0) {
+    		return;
+    	}		
+    }*/
+    public Conta() {
+    	total++;
+    	System.out.println("Nova conta criada, dados do titular abaixo: ");
+    	System.out.println("Total de contas criadas até o momento: " + Conta.total);
+    }
 
     //Setters
     public void deposita(double valor)  {
         this.saldo += valor;
     }
 
-    public boolean saca(double valor)   {
+    public void saca(double valor)   {
         if(this.saldo >= valor) {
             this.saldo -= valor;
-            return true;
+            //return true;
         }
-        return false;
+        //return false;
     }
 
     public boolean transfere(double valor, Conta destino)   {
@@ -25,8 +37,7 @@ public class Conta {
         }
         return false;
     }
-
-
+    
     public void setTitular(String nome)    {
         this.titular.setNome(nome);
     }
@@ -58,6 +69,9 @@ public class Conta {
 
     public int getNumero() {
         return numero;
+    }
+    public static int getTotal() {
+    	return total;
     }
 
 }

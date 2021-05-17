@@ -1,13 +1,17 @@
 public class Cliente {
     private String nome;
     private String cpf;
-    private String cep;
-
+    private int cep;
+    
+    public Cliente()	{
+    	if(cep <= 0)
+    		return;
+    }
     //Getters
     public String getCpf()  {
         return cpf;
     }
-    public String getCep()  {
+    public int getCep()  {
         return cep;
     }
     public String getNome() {
@@ -21,7 +25,7 @@ public class Cliente {
     public void setCpf(String cpf)  {
         this.cpf = cpf;
     }
-    public void setCep(String cep)  {
+    public void setCep(int cep)  {
         this.cep = cep;
     }
 }
