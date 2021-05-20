@@ -1,9 +1,21 @@
 
-public class Gerente extends FuncionarioAutenticavel {
+public class Gerente extends Funcionario implements Autenticavel {
 
-   /*public Gerente() {
-        System.out.println("Classe gerente instanciada...");
-    }*/
+    private AutenticadorAuxiliar autenticador;
+
+    public Gerente()    {
+        autenticador = new AutenticadorAuxiliar();
+    }
+
+    @Override
+    public boolean autentica(int senha) {
+       return autenticador.autentica(senha);
+    }
+
+    @Override
+    public void setSenha(int senha) {
+        autenticador.setSenha(senha);
+    }
 
     public double getBonificacao() {
         return super.getSalario();

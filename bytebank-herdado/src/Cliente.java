@@ -1,11 +1,11 @@
-
-public class Diretor implements Autenticavel {
+public class Cliente implements Autenticavel {
 
     private AutenticadorAuxiliar autenticador;
 
-    public Diretor()    {
-
+    public Cliente()    {
+        autenticador = new AutenticadorAuxiliar();
     }
+
     @Override
     public boolean autentica(int senha) {
         return autenticador.autentica(senha);
@@ -16,7 +16,4 @@ public class Diretor implements Autenticavel {
         autenticador.setSenha(senha);
     }
 
-   // public double getBonificacao() {
-   //     return super.getSalario() + super.getSalario() * 0.50;
-   // }
 }

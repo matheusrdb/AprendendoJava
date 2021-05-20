@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6ded8a-3315-48ee-ad55-240197447ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank-herdado-conta.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/ControleBonificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Diretor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteDiretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/bytebank-herdado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/bytebank-herdado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculadorDeImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeguroDeVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tributavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/AjudaAutenticacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Autenticavel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Autenticado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Diretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Diretor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/FuncionarioAutenticavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/SistemaInterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/SistemaInterno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteDiretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteDiretor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteGerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteGerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Diretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/FuncionarioAutenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/AutenticadorAuxiliar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/TesteFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteFuncionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/SistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/SistemaInterno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/TesteDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteDiretor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/TesteGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteGerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
