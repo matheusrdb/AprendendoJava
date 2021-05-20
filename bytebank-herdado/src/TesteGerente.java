@@ -2,7 +2,7 @@
 public class TesteGerente {
 	public static void main(String[] args) {
 		
-		FuncionarioAutenticavel matheus = new Gerente();
+		Gerente matheus = new Gerente();
 		
 		matheus.setCpf("444.444.444-88");
 		matheus.setNome("Matheus Rubens");
@@ -15,7 +15,7 @@ public class TesteGerente {
 		System.out.println("Bonificação de:R$" + bonificacao);
 
 
-		matheus.setSenha(3333);
+		matheus.setSenha(2222);
 
 		SistemaInterno si = new SistemaInterno();
 		si.autentica(matheus);
