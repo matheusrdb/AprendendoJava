@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6ded8a-3315-48ee-ad55-240197447ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CalculadorDeImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeguroDeVida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tributavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/AjudaAutenticacao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Autenticavel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Cliente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Autenticado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaSaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/ContaCorrente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Diretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Diretor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/FuncionarioAutenticavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/Gerente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/SistemaInterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/SistemaInterno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteDiretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteDiretor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteGerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/out/production/bytebank-herdado/TesteGerente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Diretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/FuncionarioAutenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/AutenticadorAuxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/SistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/SistemaInterno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/TesteDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteDiretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/src/TesteGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/src/TesteGerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +50,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestaConexao">
+    <configuration name="TestaConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaConexao" />
+      <module name="bytebank-herdado-conta" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaSaca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaSaca" />
+      <module name="bytebank-herdado-conta" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="bytebank-herdado-conta" />
@@ -77,6 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaConexao" />
+        <item itemvalue="Application.TestaSaca" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
