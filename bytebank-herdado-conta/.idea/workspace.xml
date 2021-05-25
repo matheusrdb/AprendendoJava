@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6ded8a-3315-48ee-ad55-240197447ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SaldoInsuficienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaSaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/ContaCorrente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
