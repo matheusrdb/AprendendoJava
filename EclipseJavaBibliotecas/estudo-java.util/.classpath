@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="src/libs/bytebank1.0.jar" sourcepath="/mnt/sdb1/GitHub/arquivos-jar/Conta.jar"/>
+	<classpathentry kind="lib" path="src/libs/bytebank1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

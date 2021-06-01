@@ -22,5 +22,14 @@ public class ContaCorrente extends Conta implements Tributavel {
 	public double getValorImposto() {	
 		return super.saldo * 0.01;
 	}
+	public void especifico() {
+		System.out.println("especifico pra caralho");
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "ContaCorrente, " + super.toString();
+	}
 	
 }
