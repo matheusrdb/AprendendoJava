@@ -2,6 +2,7 @@ package br.com.javautil.testes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -27,13 +28,14 @@ public class TesteArrayListEquals {
 		/**
 		 * Um array que pode ser dinâmicamente controlado podendo ser expandido a custa de processamento.
 		 */
-		ArrayList<Conta> bin = new ArrayList<>();
+		List<Conta> bin = new ArrayList<>();
 		
 		ContaCorrente cc1 = new ContaCorrente(123, 321);
 		ContaCorrente cc2 = new ContaCorrente(123, 321);
 		
 		bin.add(cc1);
 //		bin.add(cc2);
+		bin.get(0);
 		System.out.println(cc2.retorna());
 		System.out.println();
 		cc1.equals(cc2);
