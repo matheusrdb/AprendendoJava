@@ -1,6 +1,6 @@
 package br.com.javautil.testes;
 
-import br.com.bytebank.modelo.Cliente;
+import br.com.javautil.modules.Cliente;
 
 public class TesteArray2 {
 	public static void main(String[] args) {

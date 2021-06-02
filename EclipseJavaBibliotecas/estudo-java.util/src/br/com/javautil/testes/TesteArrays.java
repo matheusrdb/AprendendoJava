@@ -1,8 +1,8 @@
 package br.com.javautil.testes;
 
-import br.com.bytebank.modelo.Conta;
-import br.com.bytebank.modelo.ContaCorrente;
-import br.com.bytebank.modelo.ContaPoupanca;
+import br.com.javautil.modules.Conta;
+import br.com.javautil.modules.ContaCorrente;
+import br.com.javautil.modules.ContaPoupanca;
 
 public class TesteArrays {
 	

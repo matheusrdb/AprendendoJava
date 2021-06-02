@@ -1,9 +1,9 @@
 package br.com.javautil.testes;
 
-import br.com.bytebank.modelo.Conta;
-import br.com.bytebank.modelo.ContaCorrente;
-import br.com.bytebank.modelo.ContaPoupanca;
 import br.com.javautil.modules.BinRef;
+import br.com.javautil.modules.Conta;
+import br.com.javautil.modules.ContaCorrente;
+import br.com.javautil.modules.ContaPoupanca;
 
 public class TesteKeepRef {
 
@@ -23,12 +23,12 @@ public class TesteKeepRef {
 		Conta cp3 = new ContaPoupanca(123, 321);
 //		Guardando referências
 		BinRef bin = new BinRef();
-		bin.keepRef(cp1);
-		bin.keepRef(cp2);
-		bin.keepRef(cp3);
-		bin.keepRef(cc1);
-		bin.keepRef(cc2);
-		bin.keepRef(cc3);
+		bin.keepGenericRef(cp1);
+		bin.keepGenericRef(cp2);
+		bin.keepGenericRef(cp3);
+		bin.keepGenericRef(cc1);
+		bin.keepGenericRef(cc2);
+		bin.keepGenericRef(cc3);
 //		Manipulando Referências
 		ContaPoupanca refParaCp1 = (ContaPoupanca) bin.getObject(0);
 		System.out.println(refParaCp1.getAgencia());
@@ -42,7 +42,6 @@ public class TesteKeepRef {
 		System.out.println(refParaCp1.getAgencia());
 		} catch(NullPointerException exception) {
 			System.out.println(exception.getMessage() + ":" + " Referência deletada.");
-			
 		}
 	}
 }

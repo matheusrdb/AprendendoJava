@@ -22,14 +22,23 @@ public class BinRef {
 	}
 	
 	/**
+	 * Este método verifica se o array está cheio.
+	 */
+	public void verifyBin() {
+		if(currentPointer == 99);
+			System.out.println("Array out of ");
+			return;
+	}
+	/**
 	 * Método principal que irá ser utilizado para guardar as referẽncias.
 	 * @param refs
 	 */
-	public void keepRef(Object refs) {
+	public void keepGenericRef(Object refs) {
+		verifyBin();
 		this.bin[currentPointer] = refs;
 		currentPointer++;
-	}
-	
+		
+	}	
 	public void removeRef(int index) {
 		this.bin[index] = null;
 		currentPointer--;
