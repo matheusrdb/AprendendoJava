@@ -8,7 +8,7 @@ import javax.print.attribute.standard.MediaSize.Other;
  * @author mrrobot
  *
  */
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta> {
 
     protected double saldo;
     private int agencia;
@@ -81,8 +81,8 @@ public abstract class Conta {
        this.agencia = agencia;
     }
 
-    public void setTitular(String nome){
-    	this.titular.setNome(nome);
+    public void setTitular(Cliente nome){
+    	this.titular = nome;
     }
 
     public Cliente getTitular(){
@@ -117,5 +117,9 @@ public abstract class Conta {
 	public String toString() {
 		return "Número: " + this.numero;
 	}
-
+   
+    @Override
+   public int compareTo(Conta other) {
+    	return Integer.compare(this.getNumero(), other.getNumero());
+    }
 }

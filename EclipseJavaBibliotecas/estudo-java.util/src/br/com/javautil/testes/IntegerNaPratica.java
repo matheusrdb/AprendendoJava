@@ -31,12 +31,13 @@ public class IntegerNaPratica {
 		 * Primeiro instancia um objeto do tipo Integer que é um Wrapper
 		 * e atribui ao objeto do tipo Integer o tipo primitivo.
 		 */
-		Integer primitivo = idade;
+//		Integer primitivo = idade; 					//Este comando não deveria funcionar, acontece um AUTOBOXING
+		Integer primitivo = Integer.valueOf(idade);//O que acontece por debaixo dos panos
 		/**
 		 * E o substitui o valor anterior da variável que era um primitivo
 		 * por uma referência a um objeto do tipo Integer.
 		 */
-		idade = primitivo.intValue();
+		idade = primitivo;
 		/**
 		 * E o código continua igual:
 		 */
