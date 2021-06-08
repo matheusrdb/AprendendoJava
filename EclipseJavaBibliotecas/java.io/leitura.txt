@@ -1,0 +1,6 @@
+leitura1
+leitura2
+leitura3
+leitura4
+leitura5
+Escrevendo via código java
