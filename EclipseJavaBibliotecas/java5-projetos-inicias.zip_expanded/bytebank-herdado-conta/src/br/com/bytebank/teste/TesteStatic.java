@@ -11,10 +11,10 @@ public class TesteStatic {
 	
 		Conta cc = new ContaCorrente(123, 321);
 		Conta cp = new ContaPoupanca(123, 321);
-		cc.setTitular("Matheus");
-		cc.getTitular().setCpf("444.444.444-44");
-		cc.getTitular().setProfissao("Programador");
-		cc.deposita(100);
+//		cc.setTitular("Matheus");
+//		cc.getTitular().setCpf("444.444.444-44");
+//		cc.getTitular().setProfissao("Programador");
+//		cc.deposita(100);
 		//System.out.println(cc.getSaldo());
 		
 		System.out.println(cc.toString());

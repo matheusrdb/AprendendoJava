@@ -1,16 +1,23 @@
-	package br.com.bytebank.modelo;
+package br.com.bytebank.modelo;
+
+import java.io.Serializable;
+
 /**
  * Super Classe que representa a moldura de uma conta bancária.
  * 
  * @author mrrobot
  *
  */
-public abstract class Conta {
+public abstract class Conta implements Serializable {
 
-    protected double saldo;
+	private static final long serialVersionUID = 1L;
+	
+	protected double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular = new Cliente();
+    //transient = significa que a classe não será armazenada no objeto na serialização
+//    private transient Cliente titular;
+    private Cliente titular;
     private static int total = 0;
    /**
     * Construtor para instanciar o objeto conta a partir da agência e número.
@@ -78,8 +85,8 @@ public abstract class Conta {
        this.agencia = agencia;
     }
 
-    public void setTitular(String nome){
-    	this.titular.setNome(nome);
+    public void setTitular(Cliente cliente){
+    	this.titular = cliente;
     }
 
     public Cliente getTitular(){
