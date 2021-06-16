@@ -1,6 +1,9 @@
-package br.com.alura;
+package br.com.alura.testes;
 
 import java.util.List;
+
+import br.com.alura.modules.Aula;
+import br.com.alura.modules.Curso;
 
 public class TestaCurso {
 
