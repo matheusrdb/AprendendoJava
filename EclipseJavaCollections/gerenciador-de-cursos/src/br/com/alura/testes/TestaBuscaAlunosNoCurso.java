@@ -20,7 +20,7 @@ public class TestaBuscaAlunosNoCurso {
 
         javaColecoes.matricula(a1, a2, a3);
         
-        javaColecoes.buscaMatriculado(5617);
+        System.out.println(javaColecoes.buscaMatriculado(5617, 17645));
     }
 }
 
