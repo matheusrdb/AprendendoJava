@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/mnt/sdb1/GitHub/EclipseTDDeJUnit/.metadata/.plugins/org.eclipse.jdt.core
+1362892618.index
