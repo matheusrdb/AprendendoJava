@@ -5,4 +5,6 @@ Aqui estarão todos os meus códigos de aprendizado na linguagem java como tamb�
 *IDE Atual: Eclipse*
 
 
-*19/05/2021* - Atualmente estudando na Alura fazendo *Formação Java e Orientação a Objetos*
+*23/06/2021* - *Formação Java e Orientação a Objetos: CONCLUÍDA!*
+
+*24/06/2021* - Atualmente estudando na Alura fazendo *Formação Spring Framework*
